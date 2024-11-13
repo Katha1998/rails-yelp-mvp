@@ -7,3 +7,9 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+Restaurant.create!(name: "Shiso Burger", address: "Auguststraße", category: "japanese")
+Restaurant.create!(name: "Torbar", address: "Torstraße", category: "french")
+Restaurant.create!(name: "Vino e Basilico", address: "Tucholskystraße", category: "italian")
+Restaurant.create!(name: "Veronika", address: "Oranienburger Straße", category: "italian")
+Restaurant.create!(name: "Borchardt", address: "Französische Straße", category: "french")
